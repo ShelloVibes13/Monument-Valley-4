@@ -10,7 +10,10 @@ hsp = _move * walksp;
 
 vsp = vsp + grv;
 
-if (hsp != 0) image_xscale =sign(hsp);
+if (keyboard_check(vk_left))
+{
+	image_xscale = -1;
+}
 
 if (keyboard_check(vk_left) || keyboard_check(vk_right))
 {
