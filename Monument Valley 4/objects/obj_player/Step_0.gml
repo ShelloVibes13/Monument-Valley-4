@@ -10,9 +10,14 @@ hsp = _move * walksp;
 
 vsp = vsp + grv;
 
-if (keyboard_check(vk_left))
+if (_move = -1)
 {
-	image_xscale = -1;
+	image_xscale = -3;
+}
+
+if (_move = 1)
+{
+	image_xscale = 3;
 }
 
 if (keyboard_check(vk_left) || keyboard_check(vk_right))
