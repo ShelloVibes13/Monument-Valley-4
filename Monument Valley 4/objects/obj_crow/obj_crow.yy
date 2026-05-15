@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button",
+  "%Name":"obj_crow",
   "eventList":[],
   "managed":true,
-  "name":"obj_button",
+  "name":"obj_crow",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,7 +27,13 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":null,
+  "spriteId":{
+    "name":"spr_crow_idle",
+    "path":"sprites/spr_crow_idle/spr_crow_idle.yy",
+  },
+  "spriteMaskId":{
+    "name":"spr_crow_idle",
+    "path":"sprites/spr_crow_idle/spr_crow_idle.yy",
+  },
   "visible":true,
 }
