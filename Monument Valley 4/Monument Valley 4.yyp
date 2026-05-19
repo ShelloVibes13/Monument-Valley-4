@@ -25,11 +25,13 @@
   },
   "name":"Monument Valley 4",
   "resources":[
+    {"id":{"name":"obj_barrier_appear","path":"objects/obj_barrier_appear/obj_barrier_appear.yy",},},
     {"id":{"name":"obj_barrier","path":"objects/obj_barrier/obj_barrier.yy",},},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
     {"id":{"name":"obj_crow","path":"objects/obj_crow/obj_crow.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rm_tutorial1","path":"rooms/rm_tutorial1/rm_tutorial1.yy",},},
+    {"id":{"name":"rm_tutorial2","path":"rooms/rm_tutorial2/rm_tutorial2.yy",},},
     {"id":{"name":"spr_barrier","path":"sprites/spr_barrier/spr_barrier.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"spr_crow_cawing","path":"sprites/spr_crow_cawing/spr_crow_cawing.yy",},},
@@ -42,7 +44,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_tutorial1","path":"rooms/rm_tutorial1/rm_tutorial1.yy",},},
+    {"roomId":{"name":"rm_tutorial2","path":"rooms/rm_tutorial2/rm_tutorial2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

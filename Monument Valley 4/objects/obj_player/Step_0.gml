@@ -65,3 +65,13 @@ if (place_meeting(x,y + vsp,obj_barrier))
 }
 y = y + vsp;
 
+if (x > room_width)
+{
+	if (room_exists(room_next(room)))
+	{
+		is_transitioning = true;
+		room_goto_next();
+		x = 50;
+	}
+}
+
