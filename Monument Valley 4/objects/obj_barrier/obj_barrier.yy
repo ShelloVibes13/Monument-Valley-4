@@ -31,6 +31,9 @@
     "name":"spr_barrier",
     "path":"sprites/spr_barrier/spr_barrier.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_barrier",
+    "path":"sprites/spr_barrier/spr_barrier.yy",
+  },
   "visible":true,
 }

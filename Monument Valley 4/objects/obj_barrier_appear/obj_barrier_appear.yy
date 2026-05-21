@@ -11,7 +11,10 @@
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_barrier",
+    "path":"objects/obj_barrier/obj_barrier.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,6 +36,9 @@
     "name":"spr_barrier",
     "path":"sprites/spr_barrier/spr_barrier.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_barrier",
+    "path":"sprites/spr_barrier/spr_barrier.yy",
+  },
   "visible":true,
 }
