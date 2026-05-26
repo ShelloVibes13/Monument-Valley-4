@@ -65,13 +65,37 @@ if (place_meeting(x,y + vsp,obj_barrier))
 }
 y = y + vsp;
 
+if (place_meeting(x + hsp, y, obj_crow))
+{
+	while (!place_meeting(x + sign(hsp), y, obj_crow))
+	{
+		x += sign(hsp);
+	}
+	hsp = 0;
+}
+
+if (place_meeting(x, y + vsp, obj_crow))
+{
+	while (!place_meeting(x, y + sign(vsp), obj_crow))
+	{
+		y += sign(vsp);
+	}
+	vsp = 0;
+}
+
 if (x > room_width)
 {
 	if (room_exists(room_next(room)))
 	{
 		is_transitioning = true;
 		room_goto_next();
-		x = 50;
+	
+	}
+	if (room_exists(room_previous(room)))
+	{
+		is_transitioning = true;
+		room_goto_previous();
+		x = 1500;
 	}
 }
 
