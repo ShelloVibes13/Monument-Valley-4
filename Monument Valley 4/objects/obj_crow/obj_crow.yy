@@ -32,12 +32,12 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_crow_idle",
-    "path":"sprites/spr_crow_idle/spr_crow_idle.yy",
+    "name":"spr_crow_walk",
+    "path":"sprites/spr_crow_walk/spr_crow_walk.yy",
   },
   "spriteMaskId":{
-    "name":"spr_crow_idle",
-    "path":"sprites/spr_crow_idle/spr_crow_idle.yy",
+    "name":"spr_crow_walk",
+    "path":"sprites/spr_crow_walk/spr_crow_walk.yy",
   },
   "visible":true,
 }

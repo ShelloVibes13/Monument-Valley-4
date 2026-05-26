@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_crow_caw",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Crow",
+    "path":"folders/Sounds/Crow.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

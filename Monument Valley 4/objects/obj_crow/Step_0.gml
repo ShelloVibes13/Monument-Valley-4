@@ -9,13 +9,24 @@ if (distance_to_object(obj_player) <=5)
 }
 else
 {
-	sprite_index = spr_crow_idle;
+	sprite_index = spr_crow_walk;
 	
 	if (crow_sound != noone && audio_is_playing(crow_sound))
 	{
 		audio_stop_sound(crow_sound);
 		crow_sound = noone;
 	}
-	
-	show_debug_message("Player has left")
 }
+
+var hit_wall = place_meeting(x + (walk_speed * move_dir), y, obj_barrier);
+
+var hit_room_edge = (x + (walk_speed * move_dir) <0) || (x + (walk_speed * move_dir) > room_width);
+
+if (hit_wall || hit_room_edge)
+{
+	move_dir = -move_dir;
+}
+
+x += walk_speed * move_dir;
+
+image_xscale = move_dir;
