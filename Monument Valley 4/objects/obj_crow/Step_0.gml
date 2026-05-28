@@ -1,3 +1,6 @@
+var look_ahead_x = x + (move_dir * 16);
+var look_down_y = bbox_bottom +1;
+
 if (distance_to_object(obj_player) <=5)
 {
 	sprite_index = spr_crow_cawing;
@@ -18,6 +21,11 @@ else
 	}
 }
 
+if (!place_meeting(look_ahead_x, look_down_y, obj_barrier))
+{
+	move_dir = -move_dir;
+}
+
 var hit_wall = place_meeting(x + (walk_speed * move_dir), y, obj_barrier);
 
 var hit_room_edge = (x + (walk_speed * move_dir) <0) || (x + (walk_speed * move_dir) > room_width);
@@ -29,4 +37,4 @@ if (hit_wall || hit_room_edge)
 
 x += walk_speed * move_dir;
 
-image_xscale = move_dir;
+image_xscale = -base_scale * move_dir;

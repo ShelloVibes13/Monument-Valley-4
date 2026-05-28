@@ -55,7 +55,7 @@ if (place_meeting(x+hsp,y,obj_barrier))
 }
 x = x + hsp;
 
-if (place_meeting(x,y + vsp,obj_barrier))
+if (place_meeting(x,y + vsp, obj_barrier))
 {
 	while (!place_meeting(x,y+sign(vsp),obj_barrier))
 	{
@@ -78,7 +78,7 @@ if (place_meeting(x, y + vsp, obj_crow))
 {
 	while (!place_meeting(x, y + sign(vsp), obj_crow))
 	{
-		y += sign(vsp);
+		y = y + sign(vsp);
 	}
 	vsp = 0;
 }
