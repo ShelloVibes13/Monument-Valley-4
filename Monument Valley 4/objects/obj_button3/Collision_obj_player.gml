@@ -1,16 +1,4 @@
-with (obj_barrier_appear)
+with (obj_barrier_lower1)
 {
-	visible = true;
-	
-	mask_index = sprite_index;
-}
-
-
-instance_destroy();
-
-with (obj_barrier_disappear1)
-{
-	visible = false;
-	
-	mask_index = 1;
+	should_move = true;
 }
