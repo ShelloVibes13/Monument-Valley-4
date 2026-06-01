@@ -83,6 +83,16 @@ if (place_meeting(x, y + vsp, obj_crow))
 	vsp = 0;
 }
 
+if (place_meeting(x,y+1,obj_crow)) && (key_jump)
+{
+	vsp = -jumpsp
+}
+
+if (place_meeting(x,y+1,obj_crow))
+{
+	sprite_index = spr_player_idle
+}
+
 if (x > room_width)
 {
 	if (room_exists(room_next(room)))
@@ -91,11 +101,4 @@ if (x > room_width)
 		room_goto_next();
 	
 	}
-	if (room_exists(room_previous(room)))
-	{
-		is_transitioning = true;
-		room_goto_previous();
-		x = 1500;
-	}
 }
-
