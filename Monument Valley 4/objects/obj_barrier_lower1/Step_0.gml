@@ -10,3 +10,16 @@ if (should_move)
 		}
 	}
 }
+
+if (!should_move)
+{
+	if (y < top_position)
+	{
+		y += move_speed;
+		
+		if (y > top_position)
+		{
+			y = top_position;
+		}
+	}
+}

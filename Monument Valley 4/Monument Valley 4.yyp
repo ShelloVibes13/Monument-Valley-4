@@ -44,6 +44,7 @@
     {"id":{"name":"snd_crow_caw","path":"sounds/snd_crow_caw/snd_crow_caw.yy",},},
     {"id":{"name":"spr_barrier","path":"sprites/spr_barrier/spr_barrier.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
+    {"id":{"name":"spr_button3","path":"sprites/spr_button3/spr_button3.yy",},},
     {"id":{"name":"spr_crow_cawing","path":"sprites/spr_crow_cawing/spr_crow_cawing.yy",},},
     {"id":{"name":"spr_crow_idle","path":"sprites/spr_crow_idle/spr_crow_idle.yy",},},
     {"id":{"name":"spr_crow_walk","path":"sprites/spr_crow_walk/spr_crow_walk.yy",},},
