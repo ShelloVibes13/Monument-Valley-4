@@ -21,12 +21,12 @@ else
 	}
 }
 
-if (!place_meeting(look_ahead_x, look_down_y, obj_barrier))
+if (!place_meeting(look_ahead_x, look_down_y, [obj_barrier, obj_barrier_disappear1]))
 {
 	move_dir = -move_dir;
 }
 
-var hit_wall = place_meeting(x + (walk_speed * move_dir), y, obj_barrier);
+var hit_wall = place_meeting(x + (walk_speed * move_dir), y, [obj_barrier, obj_barrier_disappear1]);
 
 var hit_room_edge = (x + (walk_speed * move_dir) <0) || (x + (walk_speed * move_dir) > room_width);
 

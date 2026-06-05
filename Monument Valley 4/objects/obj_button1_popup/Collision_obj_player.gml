@@ -5,11 +5,12 @@ with (obj_barrier_appear)
 	mask_index = sprite_index;
 }
 
-with (obj_barrier_disappear2)
+
+instance_destroy();
+
+with (obj_barrier_disappear1)
 {
 	visible = false;
 	
 	mask_index = 1;
 }
-
-instance_destroy();

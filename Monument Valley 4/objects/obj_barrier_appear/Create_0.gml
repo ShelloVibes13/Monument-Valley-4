@@ -1,2 +1,2 @@
-visible = true;
-mask_index = sprite_index;
+visible = false;
+mask_index = 1;
