@@ -37,6 +37,7 @@
     {"id":{"name":"obj_button2","path":"objects/obj_button2/obj_button2.yy",},},
     {"id":{"name":"obj_crow","path":"objects/obj_crow/obj_crow.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"rm_final","path":"rooms/rm_final/rm_final.yy",},},
     {"id":{"name":"rm_puzzle1","path":"rooms/rm_puzzle1/rm_puzzle1.yy",},},
     {"id":{"name":"rm_puzzle2","path":"rooms/rm_puzzle2/rm_puzzle2.yy",},},
     {"id":{"name":"rm_tutorial1","path":"rooms/rm_tutorial1/rm_tutorial1.yy",},},
@@ -50,6 +51,7 @@
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"spr_player_jump","path":"sprites/spr_player_jump/spr_player_jump.yy",},},
     {"id":{"name":"spr_player_walk","path":"sprites/spr_player_walk/spr_player_walk.yy",},},
+    {"id":{"name":"spr_shrine","path":"sprites/spr_shrine/spr_shrine.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
@@ -58,6 +60,7 @@
     {"roomId":{"name":"rm_tutorial1","path":"rooms/rm_tutorial1/rm_tutorial1.yy",},},
     {"roomId":{"name":"rm_tutorial2","path":"rooms/rm_tutorial2/rm_tutorial2.yy",},},
     {"roomId":{"name":"rm_puzzle1","path":"rooms/rm_puzzle1/rm_puzzle1.yy",},},
+    {"roomId":{"name":"rm_final","path":"rooms/rm_final/rm_final.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
